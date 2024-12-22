@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+body{
+    overflow-x: hidden;
+}
+.nev{
+    position: sticky;
+    z-index: 1;
+    transform: all scale(0.3s);
+}
+.main{
+border: 2px solid rgb(223, 174, 237);
+border-radius: 10px;
+padding: 5px;
+margin: 10px;
+}
+@media (min-width: 250px)and (max-width:673px) {
+    .breck{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fix{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main{
+    background-image: url("https://t4.ftcdn.net/jpg/08/05/22/33/240_F_805223336_Vn1mYU4oxBDhRvFqPo3NB1YhElD6eNAp.jpg");
+    background-size:cover;
+
+} 
+.box:hover{
+    color: black;
+    background: #4d82ac;
+    border-radius: 10px;
+}
+.loginpage{
+    background:transparent;
+     backdrop-filter:blur(40px);
+      padding: 4px;
+      margin: 2px;
+      border:1px solid rgba(255, 255, 255, .4);
+}
+
+.sidbar{
+     background:transparent;
+     backdrop-filter:blur(40px);
+      padding: 4px;
+      margin: 2px;
+      border:1px solid rgba(255, 255, 255, .4);
+}
+
+.boxA{
+    background:transparent;
+    backdrop-filter:blur(60px);
+    color: black;
+    background: #4d82ac;
+    border-radius: 10px;
+    
+
+}
+.scrol{
+    max-width: 945px;
+    max-height: 600px;
+    overflow: scroll;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+
+  .collapsed .nav-link span {
+    display: none;
+  }
+  
+  .collapsed h4 {
+    display: none;
+  }
+  
+  .toggle-icon {
+    cursor: pointer;
+  }
+  
